@@ -11,8 +11,8 @@ group :developement do
 end
 
 group :developement do
-#  gem 'sqlite3', '1.3.5'
-  gem 'pg'
+  gem 'sqlite3', '1.3.5'
+#gem 'pg'
 end
 
 # Gems used only for assets and not required
