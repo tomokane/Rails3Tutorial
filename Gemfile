@@ -10,9 +10,12 @@ group :developement do
   gem 'rvm'
 end
 
-group :developement do
-#  gem 'sqlite3', '1.3.5'
+group :production do
   gem 'pg'
+end
+
+group :developement do
+  gem 'sqlite3', '1.3.5'
 end
 
 # Gems used only for assets and not required
